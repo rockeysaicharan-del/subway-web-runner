@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subway Web Runner - Android Download</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: system-ui, -apple-system, sans-serif; }
+    body {
+      background: radial-gradient(circle at top, #0d1b2a, #05080f 80%);
+      color: #ffffff;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .card {
+      background: rgba(15, 25, 40, 0.92);
+      border: 1px solid rgba(0, 240, 255, 0.35);
+      box-shadow: 0 0 30px rgba(0, 240, 255, 0.15);
+      border-radius: 24px;
+      max-width: 420px;
+      width: 100%;
+      padding: 32px 24px;
+      text-align: center;
+    }
+    .logo {
+      width: 96px;
+      height: 96px;
+      border-radius: 22px;
+      margin: 0 auto 16px;
+      background: linear-gradient(135deg, #00f0ff, #ff6b00);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 46px;
+      box-shadow: 0 0 20px rgba(255, 107, 0, 0.4);
+    }
+    h1 { font-size: 1.7rem; letter-spacing: 0.5px; margin-bottom: 8px; }
+    .badge {
+      display: inline-block;
+      background: rgba(0, 240, 255, 0.12);
+      color: #00f0ff;
+      border: 1px solid rgba(0, 240, 255, 0.4);
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      margin-bottom: 16px;
+    }
+    p { color: #b0c4de; font-size: 0.95rem; line-height: 1.5; margin-bottom: 24px; }
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      border-radius: 14px;
+      font-size: 1rem;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+      border: none;
+      margin-bottom: 12px;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .btn:active { transform: scale(0.98); }
+    .btn-android {
+      background: linear-gradient(90deg, #00f0ff, #00b8d4);
+      color: #05080f;
+      box-shadow: 0 4px 18px rgba(0, 240, 255, 0.35);
+    }
+    .btn-play {
+      background: linear-gradient(90deg, #ff7b00, #ff4500);
+      color: #ffffff;
+      box-shadow: 0 4px 18px rgba(255, 107, 0, 0.35);
+      margin-bottom: 0;
+    }
+    .note {
+      margin-top: 18px;
+      font-size: 0.8rem;
+      color: #8fa3bf;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">🕸️</div>
+    <h1>Subway Web Runner</h1>
+    <span class="badge">v1.0 • Free Android APK</span>
+    <p>A realistic 3D endless subway runner with unlockable classic suit skins and half-coin progression.</p>
+
+    <a href="subway-web-runner.apk" download class="btn btn-android">
+      ⬇️ Download Android (.APK)
+    </a>
+
+    <a href="https://subway-web-runner-by-charan.ai.studio" class="btn btn-play">
+      ▶️ Play in Browser
+    </a>
+
+    <div class="note">
+      Android users: After downloading <strong>subway-web-runner.apk</strong>, tap the file and allow "Install from unknown sources" if prompted.
+    </div>
+  </div>
+</body>
+</html>
